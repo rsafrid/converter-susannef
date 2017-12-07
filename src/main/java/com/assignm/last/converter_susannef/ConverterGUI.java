@@ -7,6 +7,8 @@ import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JButton;
 import java.awt.Font;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class ConverterGUI {
 
@@ -54,30 +56,58 @@ public class ConverterGUI {
 		
 		lblCm.setBounds(363, 12, 70, 40);
 		frmConvertersusannef.getContentPane().add(lblCm);
+		btnToMillimeter.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		
 		
 		btnToMillimeter.setBounds(22, 163, 178, 25);
 		frmConvertersusannef.getContentPane().add(btnToMillimeter);
+		btnToCentimeter.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		
 		
 		btnToCentimeter.setBounds(263, 163, 159, 25);
 		frmConvertersusannef.getContentPane().add(btnToCentimeter);
+		btnToDecimeter.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		
 		
 		btnToDecimeter.setBounds(22, 238, 168, 25);
 		frmConvertersusannef.getContentPane().add(btnToDecimeter);
+		btnToDecimeter.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		
 		
 		btnToMeter.setBounds(277, 238, 145, 25);
 		frmConvertersusannef.getContentPane().add(btnToMeter);
+		btnToMeter.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		
 		
 		btnToKilometer.setBounds(22, 320, 168, 25);
 		frmConvertersusannef.getContentPane().add(btnToKilometer);
+		btnToKilometer.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		
 		
 		btnToMil.setBounds(277, 320, 117, 25);
 		frmConvertersusannef.getContentPane().add(btnToMil);
+		btnToMil.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		
 		frmConvertersusannef.getContentPane().add(textField_1);
 		lblResultat.setFont(new Font("Dialog", Font.BOLD, 15));
