@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.assignm.last</groupId>
-  <artifactId>converter-susannef</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>com.assignm.last</groupId>
+	<artifactId>converter-susannef</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>converter-susannef</name>
-  <url>http://maven.apache.org</url>
+	<name>converter-susannef</name>
+	<url>http://maven.apache.org</url>
 
-<!-- Detta är min kommentar i detta projekt -->
+	<!-- Detta är min kommentar i detta projekt -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jacoco.version>0.7.7.201606060606</jacoco.version>
@@ -28,14 +28,14 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
-		<groupId>org.testng</groupId>
+			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>${testng.version}</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 	</dependencies>
 
 	<!-- nu skapar vi en build: -->
@@ -74,9 +74,9 @@
 
 			</plugin>
 			<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-surefire-plugin</artifactId>
-			<version>${surefire.version}</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${surefire.version}</version>
 			</plugin>
 		</plugins>
 	</build>
