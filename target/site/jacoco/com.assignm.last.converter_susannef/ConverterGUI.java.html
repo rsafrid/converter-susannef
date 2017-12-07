@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ConverterGUI.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">converter-susannef</a> &gt; <a href="index.source.html" class="el_package">com.assignm.last.converter_susannef</a> &gt; <span class="el_source">ConverterGUI.java</span></div><h1>ConverterGUI.java</h1><pre class="source lang-java linenums">package com.assignm.last.converter_susannef;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+
+public class ConverterGUI {
+
+	private JFrame frmConvertersusannef;
+	private JTextField textField;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+<span class="nc" id="L19">		EventQueue.invokeLater(new Runnable() {</span>
+			public void run() {
+				try {
+<span class="nc" id="L22">					ConverterGUI window = new ConverterGUI();</span>
+<span class="nc" id="L23">					window.frmConvertersusannef.setVisible(true);</span>
+<span class="nc" id="L24">				} catch (Exception e) {</span>
+<span class="nc" id="L25">					e.printStackTrace();</span>
+<span class="nc" id="L26">				}</span>
+<span class="nc" id="L27">			}</span>
+		});
+<span class="nc" id="L29">	}</span>
+
+	/**
+	 * Create the application.
+	 */
+<span class="nc" id="L34">	public ConverterGUI() {</span>
+<span class="nc" id="L35">		initialize();</span>
+<span class="nc" id="L36">	}</span>
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+<span class="nc" id="L42">		frmConvertersusannef = new JFrame();</span>
+<span class="nc" id="L43">		frmConvertersusannef.setTitle(&quot;Converter-susannef&quot;);</span>
+<span class="nc" id="L44">		frmConvertersusannef.setBounds(100, 100, 679, 557);</span>
+<span class="nc" id="L45">		frmConvertersusannef.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);</span>
+<span class="nc" id="L46">		frmConvertersusannef.getContentPane().setLayout(null);</span>
+		
+<span class="nc" id="L48">		textField = new JTextField();</span>
+<span class="nc" id="L49">		textField.setBounds(12, 12, 337, 19);</span>
+<span class="nc" id="L50">		frmConvertersusannef.getContentPane().add(textField);</span>
+<span class="nc" id="L51">		textField.setColumns(10);</span>
+		
+<span class="nc" id="L53">		JLabel lblCm = new JLabel(&quot;cm&quot;);</span>
+<span class="nc" id="L54">		lblCm.setBounds(363, 12, 70, 15);</span>
+<span class="nc" id="L55">		frmConvertersusannef.getContentPane().add(lblCm);</span>
+		
+<span class="nc" id="L57">		JButton btnToMillimeter = new JButton(&quot;till millimeter&quot;);</span>
+<span class="nc" id="L58">		btnToMillimeter.setBounds(12, 63, 178, 25);</span>
+<span class="nc" id="L59">		frmConvertersusannef.getContentPane().add(btnToMillimeter);</span>
+		
+<span class="nc" id="L61">		JButton btnToCentimeter = new JButton(&quot;till centimeter&quot;);</span>
+<span class="nc" id="L62">		btnToCentimeter.setBounds(256, 63, 159, 25);</span>
+<span class="nc" id="L63">		frmConvertersusannef.getContentPane().add(btnToCentimeter);</span>
+		
+<span class="nc" id="L65">		JButton btnToDecimeter = new JButton(&quot;till decimeter&quot;);</span>
+<span class="nc" id="L66">		btnToDecimeter.setBounds(22, 163, 168, 25);</span>
+<span class="nc" id="L67">		frmConvertersusannef.getContentPane().add(btnToDecimeter);</span>
+		
+<span class="nc" id="L69">		JButton btnToMeter = new JButton(&quot;till meter&quot;);</span>
+<span class="nc" id="L70">		btnToMeter.setBounds(270, 163, 145, 25);</span>
+<span class="nc" id="L71">		frmConvertersusannef.getContentPane().add(btnToMeter);</span>
+		
+<span class="nc" id="L73">		JButton btnToKilometer = new JButton(&quot;till kilometer&quot;);</span>
+<span class="nc" id="L74">		btnToKilometer.setBounds(22, 252, 168, 25);</span>
+<span class="nc" id="L75">		frmConvertersusannef.getContentPane().add(btnToKilometer);</span>
+		
+<span class="nc" id="L77">		JButton btnToMil = new JButton(&quot;till mil&quot;);</span>
+<span class="nc" id="L78">		btnToMil.setBounds(276, 252, 117, 25);</span>
+<span class="nc" id="L79">		frmConvertersusannef.getContentPane().add(btnToMil);</span>
+		
+<span class="nc" id="L81">		JButton btnTillTum = new JButton(&quot;till tum&quot;);</span>
+<span class="nc" id="L82">		btnTillTum.setBounds(28, 342, 117, 25);</span>
+<span class="nc" id="L83">		frmConvertersusannef.getContentPane().add(btnTillTum);</span>
+		
+<span class="nc" id="L85">		JButton btnTillFot = new JButton(&quot;till fot&quot;);</span>
+<span class="nc" id="L86">		btnTillFot.setBounds(276, 342, 117, 25);</span>
+<span class="nc" id="L87">		frmConvertersusannef.getContentPane().add(btnTillFot);</span>
+		
+<span class="nc" id="L89">		JButton btnTillAln = new JButton(&quot;till aln&quot;);</span>
+<span class="nc" id="L90">		btnTillAln.setBounds(28, 463, 117, 25);</span>
+<span class="nc" id="L91">		frmConvertersusannef.getContentPane().add(btnTillAln);</span>
+		
+<span class="nc" id="L93">		JButton btnTillFamn = new JButton(&quot;till famn&quot;);</span>
+<span class="nc" id="L94">		btnTillFamn.setBounds(287, 463, 117, 25);</span>
+<span class="nc" id="L95">		frmConvertersusannef.getContentPane().add(btnTillFamn);</span>
+		
+<span class="nc" id="L97">		JLabel lblNedanrGamla = new JLabel(&quot;Nedan är gamla svenska mått från 1700-talet:&quot;);</span>
+<span class="nc" id="L98">		lblNedanrGamla.setBounds(33, 301, 360, 15);</span>
+<span class="nc" id="L99">		frmConvertersusannef.getContentPane().add(lblNedanrGamla);</span>
+<span class="nc" id="L100">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>
