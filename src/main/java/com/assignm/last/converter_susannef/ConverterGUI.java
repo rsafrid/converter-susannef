@@ -6,32 +6,31 @@ import javax.swing.JFrame;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JButton;
+import java.awt.Font;
 
 public class ConverterGUI {
 
-	private JFrame frmConvertersusannef;
-	private JTextField textField;
+	BasicConverter bc = new BasicConverter();
+	private JFrame frmConvertersusannef = new JFrame();
+	private JTextField textField = new JTextField();
+	private JLabel lblCm = new JLabel("cm");
+	private JButton btnToMillimeter = new JButton("till millimeter");
+	private JButton btnToCentimeter = new JButton("till centimeter");
+	private JButton btnToDecimeter = new JButton("till decimeter");
+	private JButton btnToMeter = new JButton("till meter");
+	private JButton btnToKilometer = new JButton("till kilometer");
+	private JButton btnToMil = new JButton("till mil");
+	private final JTextField textField_1 = new JTextField();
+	private final JLabel lblResultat = new JLabel("Resultat");
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					ConverterGUI window = new ConverterGUI();
-					window.frmConvertersusannef.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 
 	/**
 	 * Create the application.
 	 */
 	public ConverterGUI() {
+		textField_1.setFont(new Font("Dialog", Font.PLAIN, 15));
+		textField_1.setBounds(24, 77, 512, 40);
+		textField_1.setColumns(10);
 		initialize();
 	}
 
@@ -39,63 +38,51 @@ public class ConverterGUI {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frmConvertersusannef = new JFrame();
+		
 		frmConvertersusannef.setTitle("Converter-susannef");
 		frmConvertersusannef.setBounds(100, 100, 679, 557);
 		frmConvertersusannef.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmConvertersusannef.getContentPane().setLayout(null);
+		textField.setFont(new Font("Dialog", Font.PLAIN, 17));
 		
-		textField = new JTextField();
-		textField.setBounds(12, 12, 337, 19);
+		
+		textField.setBounds(24, 12, 325, 40);
 		frmConvertersusannef.getContentPane().add(textField);
 		textField.setColumns(10);
+		lblCm.setFont(new Font("Dialog", Font.BOLD, 15));
 		
-		JLabel lblCm = new JLabel("cm");
-		lblCm.setBounds(363, 12, 70, 15);
+		
+		lblCm.setBounds(363, 12, 70, 40);
 		frmConvertersusannef.getContentPane().add(lblCm);
 		
-		JButton btnToMillimeter = new JButton("till millimeter");
-		btnToMillimeter.setBounds(12, 63, 178, 25);
+		
+		btnToMillimeter.setBounds(22, 163, 178, 25);
 		frmConvertersusannef.getContentPane().add(btnToMillimeter);
 		
-		JButton btnToCentimeter = new JButton("till centimeter");
-		btnToCentimeter.setBounds(256, 63, 159, 25);
+		
+		btnToCentimeter.setBounds(263, 163, 159, 25);
 		frmConvertersusannef.getContentPane().add(btnToCentimeter);
 		
-		JButton btnToDecimeter = new JButton("till decimeter");
-		btnToDecimeter.setBounds(22, 163, 168, 25);
+		
+		btnToDecimeter.setBounds(22, 238, 168, 25);
 		frmConvertersusannef.getContentPane().add(btnToDecimeter);
 		
-		JButton btnToMeter = new JButton("till meter");
-		btnToMeter.setBounds(270, 163, 145, 25);
+		
+		btnToMeter.setBounds(277, 238, 145, 25);
 		frmConvertersusannef.getContentPane().add(btnToMeter);
 		
-		JButton btnToKilometer = new JButton("till kilometer");
-		btnToKilometer.setBounds(22, 252, 168, 25);
+		
+		btnToKilometer.setBounds(22, 320, 168, 25);
 		frmConvertersusannef.getContentPane().add(btnToKilometer);
 		
-		JButton btnToMil = new JButton("till mil");
-		btnToMil.setBounds(276, 252, 117, 25);
+		
+		btnToMil.setBounds(277, 320, 117, 25);
 		frmConvertersusannef.getContentPane().add(btnToMil);
 		
-		JButton btnTillTum = new JButton("till tum");
-		btnTillTum.setBounds(28, 342, 117, 25);
-		frmConvertersusannef.getContentPane().add(btnTillTum);
+		frmConvertersusannef.getContentPane().add(textField_1);
+		lblResultat.setFont(new Font("Dialog", Font.BOLD, 15));
+		lblResultat.setBounds(554, 85, 95, 27);
 		
-		JButton btnTillFot = new JButton("till fot");
-		btnTillFot.setBounds(276, 342, 117, 25);
-		frmConvertersusannef.getContentPane().add(btnTillFot);
-		
-		JButton btnTillAln = new JButton("till aln");
-		btnTillAln.setBounds(28, 463, 117, 25);
-		frmConvertersusannef.getContentPane().add(btnTillAln);
-		
-		JButton btnTillFamn = new JButton("till famn");
-		btnTillFamn.setBounds(287, 463, 117, 25);
-		frmConvertersusannef.getContentPane().add(btnTillFamn);
-		
-		JLabel lblNedanrGamla = new JLabel("Nedan är gamla svenska mått från 1700-talet:");
-		lblNedanrGamla.setBounds(33, 301, 360, 15);
-		frmConvertersusannef.getContentPane().add(lblNedanrGamla);
+		frmConvertersusannef.getContentPane().add(lblResultat);
 	}
 }
