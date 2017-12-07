@@ -1,11 +1,11 @@
 package com.assignm.last.converter_susannef;
 
 public interface ConverterBasicOperationsInterface {
-	public double millimeter(double firstNumber, double secondNumber);
-	public double centimeter(double firstNumber, double secondNumber);
-	public double decimeter(double firstNumber, double secondNumber);
-	public double meter(double firstNumber, double secondNumber);
-	public double kilometer(double firstNumber, double secondNumber);
-	public double mil(double firstNumber, double secondNumber);
+	public double millimeter(double number);
+	public double centimeter(double number);
+	public double decimeter(double number);
+	public double meter(double number);
+	public double kilometer(double number);
+	public double mil(double number);
 
 }

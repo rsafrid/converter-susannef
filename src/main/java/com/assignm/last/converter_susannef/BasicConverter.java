@@ -1,34 +1,34 @@
 package com.assignm.last.converter_susannef;
 
-public class BasicConverter implements ConverterBasicOperationsInterface{
+public class BasicConverter implements ConverterBasicOperationsInterface {
 
-	public double millimeter(double firstNumber, double secondNumber) {
-		double result = firstNumber * 0.1;
+	public double millimeter(double number) {
+		double result = number * 10;
 		return result;
 	}
 
-	public double centimeter(double firstNumber, double secondNumber) {
-		double result = firstNumber * 1;
+	public double centimeter(double number) {
+		double result = number * 1;
 		return result;
 	}
 
-	public double decimeter(double firstNumber, double secondNumber) {
-		double result = firstNumber * 10;
+	public double decimeter(double number) {
+		double result = number * 0.1;
 		return result;
 	}
 
-	public double meter(double firstNumber, double secondNumber) {
-		double result = firstNumber * 100;
+	public double meter(double number) {
+		double result = number * 0.01;
 		return result;
 	}
 
-	public double kilometer(double firstNumber, double secondNumber) {
-		double result = firstNumber * 1000;
+	public double kilometer(double number) {
+		double result = number * 0.00001;
 		return result;
 	}
 
-	public double mil(double firstNumber, double secondNumber) {
-		double result = firstNumber * 10000;
+	public double mil(double number) {
+		double result = number * 0.000001;
 		return result;
 	}
 
