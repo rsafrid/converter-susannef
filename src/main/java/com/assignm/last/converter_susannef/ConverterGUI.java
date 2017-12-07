@@ -94,7 +94,7 @@ public class ConverterGUI {
 		btnTillFamn.setBounds(287, 463, 117, 25);
 		frmConvertersusannef.getContentPane().add(btnTillFamn);
 		
-		JLabel lblNedanrGamla = new JLabel("Nedan är gamla mått från 1700-talet:");
+		JLabel lblNedanrGamla = new JLabel("Nedan är gamla svenska mått från 1700-talet:");
 		lblNedanrGamla.setBounds(33, 301, 360, 15);
 		frmConvertersusannef.getContentPane().add(lblNedanrGamla);
 	}
