@@ -1,9 +1,18 @@
+/**
+ *@author susanne fridh
+ * @version 1.0
+ * 
+ * This is the Main class.
+ */
+
 package com.assignm.last.converter_susannef;
 
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Declaration of the application
+		ConverterGUI cgui = new ConverterGUI();
+		
 
 	}
 

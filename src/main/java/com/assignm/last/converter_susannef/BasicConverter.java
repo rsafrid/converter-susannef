@@ -1,7 +1,20 @@
+/**
+ * @author susanne fridh
+ * @version 1.0
+ * 
+ * This is the BasicConverter class with all calculations for each button.
+ */
+
 package com.assignm.last.converter_susannef;
 
 public class BasicConverter implements ConverterBasicOperationsInterface {
-
+	
+	/**
+	 * My methods returning calculated result
+	 * 
+	 * @return result
+	 *
+	 */	
 	public double millimeter(double number) {
 		double result = number * 10;
 		return result;

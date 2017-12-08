@@ -1,3 +1,12 @@
+/**
+ * @author susanne fridh
+ * @version 1.0
+ * 
+ * This is the MainFrame class for the GUI called ConverterGUI.java
+ * 
+ * It is a converter there you convert from centimeter to other lengths
+ */
+
 package com.assignm.last.converter_susannef;
 
 import java.awt.EventQueue;
@@ -11,7 +20,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class ConverterGUI {
-
+	// Declarations of the buttons, labels and text field
 	BasicConverter bc = new BasicConverter();
 	private JFrame frmConvertersusannef = new JFrame();
 	private JTextField textField = new JTextField();
@@ -27,7 +36,7 @@ public class ConverterGUI {
 
 
 	/**
-	 * Create the application.
+	 * Create the converter.
 	 */
 	public ConverterGUI() {
 		textField_1.setFont(new Font("Dialog", Font.PLAIN, 15));

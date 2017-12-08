@@ -1,4 +1,12 @@
+/**
+ * @author susanne fridh
+ * @version 1.0
+ * 
+ * This is the Interface class with all methods
+ */
+
 package com.assignm.last.converter_susannef;
+
 
 public interface ConverterBasicOperationsInterface {
 	public double millimeter(double number);

@@ -1,3 +1,10 @@
+/**
+ * @author susanne fridh
+ * @version 1.0
+ * 
+ * This is the test class BasicConverterTest.java
+ */
+
 package com.assignm.last.converter_susannef;
 
 import static org.junit.Assert.*;
@@ -12,6 +19,7 @@ public class BasicConverterTest {
 	Random random = new Random();
 	public static final Logger LOG = Logger.getLogger(BasicConverter.class.getName());
 	
+	// Testing random numbers between 0-10 five times each.
 	@Test
 	public void testMilimeter() {
 		double valueToConvert = 0.0;
