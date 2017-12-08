@@ -11,7 +11,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// Declaration of the application
-		ConverterGUI cgui = new ConverterGUI();
+		WrongConverterGUI cgui = new WrongConverterGUI();
 		
 
 	}

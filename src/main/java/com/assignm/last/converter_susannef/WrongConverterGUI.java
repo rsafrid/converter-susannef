@@ -10,6 +10,7 @@
 package com.assignm.last.converter_susannef;
 
 import java.awt.EventQueue;
+
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
@@ -64,18 +65,14 @@ public class ConverterGUI {
 		
 		lblCm.setBounds(363, 12, 70, 40);
 		frmConvertersusannef.getContentPane().add(lblCm);
-		
 		btnToMillimeter.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//System.out.println(valueRadians.getText().toString());
-				System.out.println(textField.getText().toString());
 			}
 		});
 		
 		
 		btnToMillimeter.setBounds(22, 163, 178, 25);
 		frmConvertersusannef.getContentPane().add(btnToMillimeter);
-		
 		btnToCentimeter.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
