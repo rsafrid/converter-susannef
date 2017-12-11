@@ -19,12 +19,12 @@ public class BasicConverterTest {
 	Random random = new Random();
 	public static final Logger LOG = Logger.getLogger(BasicConverter.class.getName());
 	
-	// Testing random numbers between 0-10 five times each.
+	// Testing random numbers between 0-10 fifty times each.
 	@Test
 	public void testMilimeter() {
 		double valueToConvert = 0.0;
 		double result = 0.0;
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < 50; i++) {
 			valueToConvert = random.nextInt(10);
 			result = valueToConvert * 10;
 			LOG.info("Testing the method millimeter with: "+ valueToConvert);
@@ -36,7 +36,7 @@ public class BasicConverterTest {
 	public void testCentimeter() {
 		double valueToConvert = 0.0;
 		double result = 0.0;
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < 50; i++) {
 			valueToConvert = random.nextInt(10);
 			result = valueToConvert * 1;
 			LOG.info("Testing the method centimeter with: "+ valueToConvert);
@@ -48,7 +48,7 @@ public class BasicConverterTest {
 	public void testDecimeter() {
 		double valueToConvert = 0.0;
 		double result = 0.0;
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < 50; i++) {
 			valueToConvert = random.nextInt(10);
 			result = valueToConvert * 0.1;
 			LOG.info("Testing the method decimeter with: "+ valueToConvert);
@@ -60,7 +60,7 @@ public class BasicConverterTest {
 	public void testMeter() {
 		double valueToConvert = 0.0;
 		double result = 0.0;
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < 50; i++) {
 			valueToConvert = random.nextInt(10);
 			result = valueToConvert * 0.01;
 			LOG.info("Testing the method meter with: "+ valueToConvert);
@@ -69,26 +69,26 @@ public class BasicConverterTest {
 	}
 	
 	@Test
-	public void testKilometer() {
+	public void testFot() {
 		double valueToConvert = 0.0;
 		double result = 0.0;
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < 50; i++) {
 			valueToConvert = random.nextInt(10);
-			result = valueToConvert * 0.00001;
-			LOG.info("Testing the method kilometer with: "+ valueToConvert);
-			assertEquals(bc.kilometer(valueToConvert), result, 0.1);
+			result = valueToConvert * 29.6;
+			LOG.info("Testing the method fot with: "+ valueToConvert);
+			assertEquals(bc.fot(valueToConvert), result, 0.1);
 		}
 	}
 	
 	@Test
-	public void testMil() {
+	public void testAln() {
 		double valueToConvert = 0.0;
 		double result = 0.0;
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < 50; i++) {
 			valueToConvert = random.nextInt(10);
-			result = valueToConvert * 0.000001;
-			LOG.info("Testing the method mil with: "+ valueToConvert);
-			assertEquals(bc.mil(valueToConvert), result, 0.1);
+			result = valueToConvert * 59.38;
+			LOG.info("Testing the method aln with: "+ valueToConvert);
+			assertEquals(bc.aln(valueToConvert), result, 0.1);
 		}
 	}
 

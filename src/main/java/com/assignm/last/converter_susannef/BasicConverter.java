@@ -35,13 +35,13 @@ public class BasicConverter implements ConverterBasicOperationsInterface {
 		return result;
 	}
 
-	public double kilometer(double number) {
-		double result = number * 0.00001;
+	public double fot(double number) {
+		double result = number * 29.6;
 		return result;
 	}
 
-	public double mil(double number) {
-		double result = number * 0.000001;
+	public double aln(double number) {
+		double result = number * 59.38;
 		return result;
 	}
 

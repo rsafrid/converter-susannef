@@ -13,7 +13,7 @@ public interface ConverterBasicOperationsInterface {
 	public double centimeter(double number);
 	public double decimeter(double number);
 	public double meter(double number);
-	public double kilometer(double number);
-	public double mil(double number);
+	public double fot(double number);
+	public double aln(double number);
 
 }
