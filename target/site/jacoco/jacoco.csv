@@ -1,5 +1,12 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-converter-susannef,com.assignm.last.converter_susannef,Main,4,0,0,0,2,0,2,0,2,0
-converter-susannef,com.assignm.last.converter_susannef,ConverterGUI,263,0,0,0,51,0,3,0,3,0
+converter-susannef,com.assignm.last.converter_susannef,ConverterGUI.new ActionListener() {...},9,0,0,0,3,0,2,0,2,0
+converter-susannef,com.assignm.last.converter_susannef,Main,8,0,0,0,3,0,2,0,2,0
+converter-susannef,com.assignm.last.converter_susannef,ConverterGUI.new ActionListener() {...},23,0,0,0,4,0,2,0,2,0
+converter-susannef,com.assignm.last.converter_susannef,ConverterGUI.new ActionListener() {...},17,0,0,0,4,0,2,0,2,0
+converter-susannef,com.assignm.last.converter_susannef,ConverterGUI.new ActionListener() {...},23,0,0,0,4,0,2,0,2,0
+converter-susannef,com.assignm.last.converter_susannef,ConverterGUI,374,0,0,0,61,0,2,0,2,0
+converter-susannef,com.assignm.last.converter_susannef,ConverterGUI.new ActionListener() {...},23,0,0,0,4,0,2,0,2,0
 converter-susannef,com.assignm.last.converter_susannef,BasicConverter,0,39,0,0,0,13,0,7,0,7
-converter-susannef,com.assignm.last.converter_susannef,ConverterGUI.new Runnable() {...},16,0,0,0,7,0,2,0,2,0
+converter-susannef,com.assignm.last.converter_susannef,ConverterGUI.new ActionListener() {...},23,0,0,0,4,0,2,0,2,0
+converter-susannef,com.assignm.last.converter_susannef,ConverterGUI.new ActionListener() {...},23,0,0,0,4,0,2,0,2,0
+converter-susannef,com.assignm.last.converter_susannef,ConverterGUI.new ActionListener() {...},23,0,0,0,4,0,2,0,2,0

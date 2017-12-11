@@ -1,35 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>BasicConverter.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">converter-susannef</a> &gt; <a href="index.source.html" class="el_package">com.assignm.last.converter_susannef</a> &gt; <span class="el_source">BasicConverter.java</span></div><h1>BasicConverter.java</h1><pre class="source lang-java linenums">package com.assignm.last.converter_susannef;
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>BasicConverter.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">converter-susannef</a> &gt; <a href="index.source.html" class="el_package">com.assignm.last.converter_susannef</a> &gt; <span class="el_source">BasicConverter.java</span></div><h1>BasicConverter.java</h1><pre class="source lang-java linenums">/**
+ * @author susanne fridh
+ * @version 1.0
+ * 
+ * This is the BasicConverter class with all calculations for each button.
+ */
 
-<span class="fc" id="L3">public class BasicConverter implements ConverterBasicOperationsInterface {</span>
+package com.assignm.last.converter_susannef;
 
+<span class="fc" id="L10">public class BasicConverter implements ConverterBasicOperationsInterface {</span>
+	
+	/**
+	 * My methods returning calculated result
+	 * 
+	 * @return result
+	 *
+	 */	
 	public double millimeter(double number) {
-<span class="fc" id="L6">		double result = number * 10;</span>
-<span class="fc" id="L7">		return result;</span>
+<span class="fc" id="L19">		double result = number * 10;</span>
+<span class="fc" id="L20">		return result;</span>
 	}
 
 	public double centimeter(double number) {
-<span class="fc" id="L11">		double result = number * 1;</span>
-<span class="fc" id="L12">		return result;</span>
+<span class="fc" id="L24">		double result = number * 1;</span>
+<span class="fc" id="L25">		return result;</span>
 	}
 
 	public double decimeter(double number) {
-<span class="fc" id="L16">		double result = number * 0.1;</span>
-<span class="fc" id="L17">		return result;</span>
+<span class="fc" id="L29">		double result = number * 0.1;</span>
+<span class="fc" id="L30">		return result;</span>
 	}
 
 	public double meter(double number) {
-<span class="fc" id="L21">		double result = number * 0.01;</span>
-<span class="fc" id="L22">		return result;</span>
+<span class="fc" id="L34">		double result = number * 0.01;</span>
+<span class="fc" id="L35">		return result;</span>
 	}
 
-	public double kilometer(double number) {
-<span class="fc" id="L26">		double result = number * 0.00001;</span>
-<span class="fc" id="L27">		return result;</span>
+	public double fot(double number) {
+<span class="fc" id="L39">		double result = number * 29.6;</span>
+<span class="fc" id="L40">		return result;</span>
 	}
 
-	public double mil(double number) {
-<span class="fc" id="L31">		double result = number * 0.000001;</span>
-<span class="fc" id="L32">		return result;</span>
+	public double aln(double number) {
+<span class="fc" id="L44">		double result = number * 59.38;</span>
+<span class="fc" id="L45">		return result;</span>
 	}
 
 	

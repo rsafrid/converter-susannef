@@ -1,36 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="154" started-at="2017-12-07T13:07:47Z" finished-at="2017-12-07T13:07:48Z">
+  <suite name="Surefire suite" duration-ms="908" started-at="2017-12-11T12:25:40Z" finished-at="2017-12-11T12:25:41Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="154" started-at="2017-12-07T13:07:47Z" finished-at="2017-12-07T13:07:48Z">
+    <test name="Surefire test" duration-ms="908" started-at="2017-12-11T12:25:40Z" finished-at="2017-12-11T12:25:41Z">
       <class name="com.assignm.last.converter_susannef.BasicConverterTest">
-        <test-method status="PASS" signature="testMil()[pri:0, instance:testMil(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testMil" duration-ms="15" started-at="2017-12-07T14:07:48Z" finished-at="2017-12-07T14:07:48Z">
+        <test-method status="PASS" signature="testMeterPositieNumber()[pri:0, instance:testMeterPositieNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testMeterPositieNumber" duration-ms="109" started-at="2017-12-11T13:25:40Z" finished-at="2017-12-11T13:25:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMil -->
-        <test-method status="PASS" signature="testMeter()[pri:0, instance:testMeter(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testMeter" duration-ms="4" started-at="2017-12-07T14:07:48Z" finished-at="2017-12-07T14:07:48Z">
+        </test-method> <!-- testMeterPositieNumber -->
+        <test-method status="PASS" signature="testAlnZero()[pri:0, instance:testAlnZero(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testAlnZero" duration-ms="79" started-at="2017-12-11T13:25:40Z" finished-at="2017-12-11T13:25:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMeter -->
-        <test-method status="PASS" signature="testKilometer()[pri:0, instance:testKilometer(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testKilometer" duration-ms="8" started-at="2017-12-07T14:07:48Z" finished-at="2017-12-07T14:07:48Z">
+        </test-method> <!-- testAlnZero -->
+        <test-method status="PASS" signature="testMeterNegatieNumber()[pri:0, instance:testMeterNegatieNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testMeterNegatieNumber" duration-ms="67" started-at="2017-12-11T13:25:40Z" finished-at="2017-12-11T13:25:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testKilometer -->
-        <test-method status="PASS" signature="testMilimeter()[pri:0, instance:testMilimeter(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testMilimeter" duration-ms="6" started-at="2017-12-07T14:07:48Z" finished-at="2017-12-07T14:07:48Z">
+        </test-method> <!-- testMeterNegatieNumber -->
+        <test-method status="PASS" signature="testFotZero()[pri:0, instance:testFotZero(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testFotZero" duration-ms="54" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMilimeter -->
-        <test-method status="PASS" signature="testCentimeter()[pri:0, instance:testCentimeter(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testCentimeter" duration-ms="8" started-at="2017-12-07T14:07:48Z" finished-at="2017-12-07T14:07:48Z">
+        </test-method> <!-- testFotZero -->
+        <test-method status="PASS" signature="testDecimeterNegativeNumber()[pri:0, instance:testDecimeterNegativeNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testDecimeterNegativeNumber" duration-ms="39" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCentimeter -->
-        <test-method status="PASS" signature="testDecimeter()[pri:0, instance:testDecimeter(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testDecimeter" duration-ms="5" started-at="2017-12-07T14:07:48Z" finished-at="2017-12-07T14:07:48Z">
+        </test-method> <!-- testDecimeterNegativeNumber -->
+        <test-method status="PASS" signature="testCentimeterZero()[pri:0, instance:testCentimeterZero(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testCentimeterZero" duration-ms="50" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDecimeter -->
+        </test-method> <!-- testCentimeterZero -->
+        <test-method status="PASS" signature="testMeterZero()[pri:0, instance:testMeterZero(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testMeterZero" duration-ms="8" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeterZero -->
+        <test-method status="PASS" signature="testDecimeterPositiveNumber()[pri:0, instance:testDecimeterPositiveNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testDecimeterPositiveNumber" duration-ms="84" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecimeterPositiveNumber -->
+        <test-method status="PASS" signature="testMilimeterZero()[pri:0, instance:testMilimeterZero(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testMilimeterZero" duration-ms="48" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMilimeterZero -->
+        <test-method status="PASS" signature="testMilimeterNegativeNumber()[pri:0, instance:testMilimeterNegativeNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testMilimeterNegativeNumber" duration-ms="24" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMilimeterNegativeNumber -->
+        <test-method status="PASS" signature="testAlnNegativeNumber()[pri:0, instance:testAlnNegativeNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testAlnNegativeNumber" duration-ms="30" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlnNegativeNumber -->
+        <test-method status="PASS" signature="testMilimeterPositiveNumber()[pri:0, instance:testMilimeterPositiveNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testMilimeterPositiveNumber" duration-ms="22" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMilimeterPositiveNumber -->
+        <test-method status="PASS" signature="testCentimeterNegativeNumber()[pri:0, instance:testCentimeterNegativeNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testCentimeterNegativeNumber" duration-ms="25" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCentimeterNegativeNumber -->
+        <test-method status="PASS" signature="testAlnPositiveNumber()[pri:0, instance:testAlnPositiveNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testAlnPositiveNumber" duration-ms="24" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlnPositiveNumber -->
+        <test-method status="PASS" signature="testDecimeterZero()[pri:0, instance:testDecimeterZero(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testDecimeterZero" duration-ms="31" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecimeterZero -->
+        <test-method status="PASS" signature="testCentimeterPositiveNumber()[pri:0, instance:testCentimeterPositiveNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testCentimeterPositiveNumber" duration-ms="13" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCentimeterPositiveNumber -->
+        <test-method status="PASS" signature="testFotNegatieNumber()[pri:0, instance:testFotNegatieNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testFotNegatieNumber" duration-ms="22" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFotNegatieNumber -->
+        <test-method status="PASS" signature="testFotPositiveNumber()[pri:0, instance:testFotPositiveNumber(com.assignm.last.converter_susannef.BasicConverterTest)]" name="testFotPositiveNumber" duration-ms="10" started-at="2017-12-11T13:25:41Z" finished-at="2017-12-11T13:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFotPositiveNumber -->
       </class> <!-- com.assignm.last.converter_susannef.BasicConverterTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
