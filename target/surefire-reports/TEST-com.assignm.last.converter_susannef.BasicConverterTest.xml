@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.assignm.last.converter_susannef.BasicConverterTest" time="0.058" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="com.assignm.last.converter_susannef.BasicConverterTest" time="0.754" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -58,10 +58,22 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testMil on testMil(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.011"/>
-  <testcase name="testMeter on testMeter(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.004"/>
-  <testcase name="testKilometer on testKilometer(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.008"/>
-  <testcase name="testMilimeter on testMilimeter(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.018"/>
-  <testcase name="testCentimeter on testCentimeter(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.017"/>
-  <testcase name="testDecimeter on testDecimeter(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0"/>
+  <testcase name="testMeterPositieNumber on testMeterPositieNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.112"/>
+  <testcase name="testAlnZero on testAlnZero(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.071"/>
+  <testcase name="testMeterNegatieNumber on testMeterNegatieNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.067"/>
+  <testcase name="testFotZero on testFotZero(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.055"/>
+  <testcase name="testDecimeterNegativeNumber on testDecimeterNegativeNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.039"/>
+  <testcase name="testCentimeterZero on testCentimeterZero(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.051"/>
+  <testcase name="testMeterZero on testMeterZero(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.013"/>
+  <testcase name="testDecimeterPositiveNumber on testDecimeterPositiveNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.085"/>
+  <testcase name="testMilimeterZero on testMilimeterZero(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.052"/>
+  <testcase name="testMilimeterNegativeNumber on testMilimeterNegativeNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.031"/>
+  <testcase name="testAlnNegativeNumber on testAlnNegativeNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.031"/>
+  <testcase name="testMilimeterPositiveNumber on testMilimeterPositiveNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.015"/>
+  <testcase name="testCentimeterNegativeNumber on testCentimeterNegativeNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.03"/>
+  <testcase name="testAlnPositiveNumber on testAlnPositiveNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.017"/>
+  <testcase name="testDecimeterZero on testDecimeterZero(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.033"/>
+  <testcase name="testCentimeterPositiveNumber on testCentimeterPositiveNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.011"/>
+  <testcase name="testFotNegatieNumber on testFotNegatieNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.029"/>
+  <testcase name="testFotPositiveNumber on testFotPositiveNumber(com.assignm.last.converter_susannef.BasicConverterTest)" classname="com.assignm.last.converter_susannef.BasicConverterTest" time="0.012"/>
 </testsuite>
